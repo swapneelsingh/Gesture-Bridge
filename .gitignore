@@ -1,0 +1,15 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore image datasets and training data
+Image/
+MP_Data/
+Logs/
+
+# Ignore trained model files
+model.h5
+model.json
+
+# Optionally ignore Jupyter/IPython files if you use them
+*.ipynb_checkpoints/
